@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050918" />
+    <title>Detalle | Más allá del feed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="article-page detail-page">
+    <div class="page-shell">
+      <header class="site-header article-header">
+        <div class="container nav-wrap">
+          <a class="brand" href="index.html#inicio" aria-label="Ir al inicio de Más allá del feed">
+            <img src="assets/logo.svg" alt="Símbolo gráfico de DosCaras.IA" />
+            <span>Más allá del feed</span>
+          </a>
+        </div>
+      </header>
+
+      <main class="detail-main" id="detail-main" aria-live="polite">
+        <article class="detail-shell" id="detail-view" hidden>
+          <p class="eyebrow accent">Vista de contenido</p>
+          <h1 id="detail-title"></h1>
+          <div class="detail-content" id="detail-content"></div>
+          <p class="detail-notice" id="detail-notice" hidden>
+            Este espacio todavía no tiene más contenido disponible.
+          </p>
+          <div class="detail-actions">
+            <a class="button primary" href="index.html#inicio">Volver al inicio</a>
+            <a class="button secondary" id="detail-source-link" href="index.html#inicio" hidden>Volver a la sección de origen</a>
+          </div>
+        </article>
+
+        <section class="detail-error" id="detail-error" role="alert" hidden>
+          <h1>Este contenido no está disponible.</h1>
+          <p>No se recibieron los datos necesarios para mostrar esta vista.</p>
+          <a class="button primary" href="index.html#inicio">Volver al inicio</a>
+        </section>
+      </main>
+
+      <footer class="site-footer article-footer">
+        <div class="container footer-grid">
+          <a class="brand footer-brand" href="index.html#inicio">
+            <img src="assets/logo.svg" alt="Símbolo gráfico de DosCaras.IA" />
+            <span>Más allá del feed</span>
+          </a>
+          <div class="footer-meta">
+            <span>© <span id="year"></span> Más allá del feed</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/detail.js"></script>
+  </body>
+</html>

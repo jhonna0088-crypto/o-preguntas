@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mapa visual provisional de la estructura de inicio de Más allá del feed."
+    />
+    <meta name="theme-color" content="#070a16" />
+    <title>Mapa de inicio | Más allá del feed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Oswald:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/mapa-inicio.css" />
+    <script src="js/mapa-inicio.js" defer></script>
+  </head>
+  <body data-preview="desktop">
+    <header class="map-toolbar">
+      <a class="toolbar-brand" href="#inicio" aria-label="Mapa de inicio, ir al comienzo">
+        <span class="toolbar-mark" aria-hidden="true"><span></span><span></span></span>
+        <span><strong>MÁS ALLÁ DEL FEED</strong><small>MAPA VISUAL · BORRADOR</small></span>
+      </a>
+      <div class="preview-control" role="group" aria-label="Cambiar vista del mapa">
+        <span class="control-label">PREVISUALIZAR</span>
+        <button type="button" class="preview-button is-active" data-preview-choice="desktop" aria-pressed="true">
+          <span aria-hidden="true">▰</span> Escritorio
+        </button>
+        <button type="button" class="preview-button" data-preview-choice="mobile" aria-pressed="false">
+          <span aria-hidden="true">▯</span> Móvil
+        </button>
+      </div>
+    </header>
+
+    <main class="map-workspace">
+      <div class="map-heading">
+        <div>
+          <p class="overline"><span class="live-dot"></span> ARQUITECTURA DE PORTADA <span class="overline-divider">/</span> 01 — 07</p>
+          <h1>El mapa <span>de inicio.</span></h1>
+          <p class="map-intro">
+            Un recorrido visual por la portada: de la primera impresión a la conversación.
+            <span>Esquema de contenido y jerarquía; no es la web definitiva.</span>
+          </p>
+        </div>
+        <div class="read-order" aria-label="Orden de lectura de arriba hacia abajo">
+          <span class="read-order-line" aria-hidden="true"></span>
+          <span>ORDEN DE LECTURA</span>
+          <strong>De arriba hacia abajo</strong>
+        </div>
+      </div>
+
+      <aside class="legend" aria-label="Leyenda del mapa">
+        <span class="legend-title">CÓMO LEER ESTE MAPA</span>
+        <span class="legend-item"><i class="legend-swatch swatch-content"></i> Contenido / texto</span>
+        <span class="legend-item"><i class="legend-swatch swatch-media"></i> Área visual / imagen</span>
+        <span class="legend-item"><i class="legend-swatch swatch-action"></i> Acción representada</span>
+        <span class="legend-item"><i class="legend-dash"></i> Provisional o por aprobar</span>
+      </aside>
+
+      <div class="page-preview">
+        <div class="preview-caption">
+          <span><span class="caption-dot"></span> ESTRUCTURA DE LA PÁGINA</span>
+          <span class="preview-size" aria-live="polite">VISTA ESCRITORIO · FLUIDA</span>
+        </div>
+
+        <div class="site-page" id="inicio">
+          <header class="site-nav map-section" aria-label="A. Navegación superior">
+            <a class="site-brand" href="#inicio" aria-label="Marca provisional Más allá del feed">
+              <span class="brand-placeholder" aria-hidden="true"><i></i><i></i></span>
+              <span class="brand-name">MÁS ALLÁ <b>DEL FEED</b><small>MARCA / SÍMBOLO POR DEFINIR</small></span>
+            </a>
+            <nav class="desktop-nav" aria-label="Enlaces de navegación representados">
+              <a href="#inicio">Inicio</a>
+              <a href="#historias">Actualidad</a>
+              <a href="#conexiones">Tecnología</a>
+              <a href="#conexiones">Sociedad</a>
+              <a href="#proyecto">Quiénes somos</a>
+            </nav>
+            <span class="mobile-menu-sample" aria-label="Representación del menú móvil">
+              <i></i><i></i><i></i><small>MENÚ</small>
+            </span>
+            <span class="section-chip nav-chip"><b>A</b> NAVEGACIÓN</span>
+          </header>
+
+          <section class="hero map-section" aria-labelledby="hero-title">
+            <div class="hero-copy">
+              <span class="section-chip"><b>B</b> PORTADA / HERO</span>
+              <p class="hero-kicker"><span></span> LA REALIDAD DETRÁS DE LA PANTALLA</p>
+              <h2 id="hero-title">MÁS ALLÁ<br /><span>DEL FEED</span></h2>
+              <p class="hero-deck">Noticias, ideas y preguntas para entender lo que las redes no siempre muestran.</p>
+              <div class="hero-actions" aria-label="Acciones propuestas">
+                <span class="action-sample">Explorar las historias <b aria-hidden="true">↗</b></span>
+                <span class="action-caption">BOTÓN PRINCIPAL · DESTINO: HISTORIAS</span>
+              </div>
+              <div class="hero-note"><span>01</span> Una pregunta para mirar más allá del scroll.</div>
+            </div>
+            <div class="hero-art" aria-label="Espacio reservado para una composición tecnológica y cinematográfica">
+              <span class="media-label"><i></i> ÁREA VISUAL · COMPOSICIÓN ORIGINAL</span>
+              <div class="art-grid" aria-hidden="true"></div>
+              <div class="orb orb-a" aria-hidden="true"></div>
+              <div class="orb orb-b" aria-hidden="true"></div>
+              <div class="art-ring ring-a" aria-hidden="true"></div>
+              <div class="art-ring ring-b" aria-hidden="true"></div>
+              <div class="art-core" aria-hidden="true"><span>¿?</span></div>
+              <div class="art-coordinate coordinate-a" aria-hidden="true">SIGNAL_01<br />LAT 04.6097° N</div>
+              <div class="art-coordinate coordinate-b" aria-hidden="true">FEED / REALITY<br />CONNECTION ACTIVE</div>
+              <span class="art-cross cross-a" aria-hidden="true"></span>
+              <span class="art-cross cross-b" aria-hidden="true"></span>
+              <span class="art-index" aria-hidden="true">01 — 07</span>
+            </div>
+          </section>
+
+          <section class="project-section map-section" id="proyecto" aria-labelledby="project-title">
+            <div class="section-heading">
+              <div>
+                <span class="section-chip"><b>C</b> PRESENTACIÓN</span>
+                <h2 id="project-title">Quiénes <span>somos.</span></h2>
+              </div>
+              <span class="provisional-tag">CONTENIDO PROVISIONAL · PENDIENTE DE APROBACIÓN</span>
+            </div>
+            <div class="project-layout">
+              <div class="project-statement content-block">
+                <span class="element-label">TEXTO / PROPÓSITO</span>
+                <p>Un espacio para explorar cómo la tecnología, los medios y las redes transforman la forma en que vivimos y entendemos el mundo.</p>
+                <span class="text-placeholder">DESCRIPCIÓN DEL PROYECTO · POR VALIDAR</span>
+              </div>
+              <div class="pillars" aria-label="Misión, visión y valores; todos los textos son provisionales">
+                <article class="pillar">
+                  <span class="pillar-number">01</span><span class="element-label">MISIÓN</span>
+                  <p>Qué buscamos aportar.</p><span class="draft-line"></span>
+                </article>
+                <article class="pillar">
+                  <span class="pillar-number">02</span><span class="element-label">VISIÓN</span>
+                  <p>Qué futuro imaginamos.</p><span class="draft-line"></span>
+                </article>
+                <article class="pillar pillar-values">
+                  <span class="pillar-number">03</span><span class="element-label">VALORES</span>
+                  <p>Principios que nos guían.</p><span class="value-tags">VERACIDAD · CRITERIO · RESPETO</span>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="stories-section map-section" id="historias" aria-labelledby="stories-title">
+            <div class="section-heading">
+              <div>
+                <span class="section-chip"><b>D</b> HISTORIAS DESTACADAS</span>
+                <h2 id="stories-title">Lo que merece <span>otra mirada.</span></h2>
+              </div>
+              <span class="content-note">EJEMPLOS TEMÁTICOS · NO SON NOTICIAS REALES</span>
+            </div>
+            <div class="story-layout">
+              <article class="story-card story-feature">
+                <div class="story-visual visual-feature">
+                  <span class="element-label">ESPACIO PARA IMAGEN</span>
+                  <span class="visual-orbit orbit-one" aria-hidden="true"></span>
+                  <span class="visual-orbit orbit-two" aria-hidden="true"></span>
+                  <span class="visual-subject" aria-hidden="true">IA<span>?</span></span>
+                  <span class="story-number">01 / DESTACADA</span>
+                </div>
+                <div class="story-info">
+                  <span class="category">INTELIGENCIA ARTIFICIAL <i>·</i> DEMOSTRACIÓN</span>
+                  <h3>¿Qué cambia cuando la inteligencia artificial entra en nuestra vida cotidiana?</h3>
+                  <p>Espacio para una síntesis breve que invite a explorar el tema.</p>
+                  <span class="story-read">TÍTULO + DESCRIPCIÓN <b>↗</b></span>
+                </div>
+              </article>
+              <div class="story-stack">
+                <article class="story-card story-secondary">
+                  <div class="story-visual visual-algorithm">
+                    <span class="element-label">ESPACIO PARA IMAGEN</span>
+                    <span class="algorithm-mark" aria-hidden="true">◉<i>···</i></span>
+                    <span class="story-number">02</span>
+                  </div>
+                  <div class="story-info">
+                    <span class="category">ALGORITMOS <i>·</i> EJEMPLO</span>
+                    <h3>¿Quién decide qué aparece en tu feed?</h3>
+                    <p>Resumen breve · pendiente de redacción.</p>
+                  </div>
+                </article>
+                <article class="story-card story-secondary story-offset">
+                  <div class="story-visual visual-privacy">
+                    <span class="element-label">ESPACIO PARA IMAGEN</span>
+                    <span class="privacy-mark" aria-hidden="true"><i></i></span>
+                    <span class="story-number">03</span>
+                  </div>
+                  <div class="story-info">
+                    <span class="category">REDES Y PRIVACIDAD <i>·</i> EJEMPLO</span>
+                    <h3>Lo que compartimos, lo que dejamos atrás.</h3>
+                    <p>Resumen breve · pendiente de redacción.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="connections-section map-section" id="conexiones" aria-labelledby="connections-title">
+            <div class="connections-copy">
+              <span class="section-chip"><b>E</b> TECNOLOGÍA + SOCIEDAD</span>
+              <h2 id="connections-title">Nada ocurre <span>aislado.</span></h2>
+              <p>Un mapa interactivo para descubrir cómo se conectan las ideas, las plataformas y la vida diaria.</p>
+              <span class="interaction-hint"><i></i> NODOS EXPLORABLES · EXPERIENCIA PROPUESTA</span>
+            </div>
+            <div class="connection-map" role="img" aria-label="Diagrama de ejemplo que conecta inteligencia artificial con redes sociales, cultura, economía y personas. Es una representación de una experiencia interactiva propuesta.">
+              <svg class="connection-lines" viewBox="0 0 620 300" aria-hidden="true">
+                <path d="M310 150 137 66M310 150 488 59M310 150 113 236M310 150 497 235M310 150 310 35"/>
+                <path d="M137 66 310 35 488 59M113 236 310 267 497 235"/>
+                <circle cx="310" cy="150" r="91"/>
+              </svg>
+              <span class="connection-node node-core"><i></i>INTELIGENCIA<br />ARTIFICIAL</span>
+              <span class="connection-node node-social"><i></i>REDES<br />SOCIALES</span>
+              <span class="connection-node node-culture"><i></i>CULTURA</span>
+              <span class="connection-node node-economy"><i></i>ECONOMÍA</span>
+              <span class="connection-node node-people"><i></i>PERSONAS</span>
+              <span class="connection-node node-media"><i></i>MEDIOS</span>
+              <span class="map-legend-inline"><i></i> RELACIÓN / TEMA CONECTADO</span>
+            </div>
+          </section>
+
+          <section class="opinions-section map-section" id="perspectivas" aria-labelledby="opinions-title">
+            <div class="opinions-heading">
+              <span class="section-chip"><b>F</b> OPINIONES Y PERSPECTIVAS</span>
+              <h2 id="opinions-title">Una pregunta.<br /><span>Más de una respuesta.</span></h2>
+              <p>Argumentos y puntos de vista diferentes, presentados con contexto y respeto.</p>
+            </div>
+            <div class="opinion-layout">
+              <article class="opinion-main">
+                <span class="element-label">PREGUNTA CENTRAL · PROPUESTA</span>
+                <h3>¿Las redes nos acercan o deciden cómo nos vemos?</h3>
+                <div class="opinion-spectrum"><span>ARGUMENTO A</span><i></i><span>ARGUMENTO B</span></div>
+                <p>Espacio para presentar posturas, evidencias y matices.</p>
+              </article>
+              <aside class="opinion-side">
+                <span class="element-label">OTRAS VOCES</span>
+                <p><b>01</b> Tecnología y privacidad</p>
+                <p><b>02</b> Cultura y algoritmos</p>
+                <span class="text-placeholder">PUNTOS DE VISTA · POR DEFINIR</span>
+              </aside>
+            </div>
+          </section>
+
+          <section class="closing-section map-section" aria-labelledby="closing-title">
+            <span class="section-chip"><b>G</b> CIERRE EDITORIAL</span>
+            <div class="closing-content">
+              <span class="closing-cross" aria-hidden="true">✳</span>
+              <p>CIERRE EDITORIAL · FRASE PROPUESTA</p>
+              <p class="closing-lead">El siguiente paso empieza con una pregunta.</p>
+              <h2 id="closing-title">Mira más allá<br /><span>de la pantalla.</span></h2>
+              <span class="action-sample closing-action">Explorar historias <b aria-hidden="true">↗</b></span>
+              <span class="action-caption">CIERRE / ACCIÓN · DESTINO: ACTUALIDAD</span>
+            </div>
+          </section>
+
+          <footer class="site-footer map-section">
+            <div class="footer-brand">
+              <span class="brand-placeholder" aria-hidden="true"><i></i><i></i></span>
+              <span class="brand-name">MÁS ALLÁ <b>DEL FEED</b></span>
+            </div>
+            <nav aria-label="Secciones representadas en el pie">
+              <a href="#inicio">Inicio</a><a href="#historias">Actualidad</a><a href="#conexiones">Tecnología</a>
+              <a href="#conexiones">Sociedad</a><a href="#perspectivas">Perspectivas</a><a href="#proyecto">Quiénes somos</a>
+            </nav>
+            <div class="footer-note"><span>PROYECTO ESCOLAR</span><span>INFORMACIÓN DEL PROYECTO · POR DEFINIR</span></div>
+          </footer>
+        </div>
+      </div>
+
+      <p class="map-footnote"><span>NOTA DE DISEÑO</span> Las áreas visuales son espacios de contenido, no imágenes ni noticias; los textos de misión, visión y presentación requieren aprobación.</p>
+    </main>
+  </body>
+</html>

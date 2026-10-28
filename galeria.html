@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Galería de fotografías de Más allá del feed." />
+    <meta name="theme-color" content="#050918" />
+    <title>Galería | Más allá del feed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="gallery-page">
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav-wrap">
+          <a class="brand" href="index.html#inicio" aria-label="Volver a Más allá del feed">
+            <img src="assets/logo.svg" alt="Símbolo gráfico de DosCaras.IA" />
+            <span>Más allá del feed</span>
+          </a>
+
+          <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="sr-only">Abrir menú</span>
+          </button>
+
+          <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+            <a href="index.html#inicio">Inicio</a>
+            <a href="index.html#noticias-ia">Noticias IA</a>
+            <a href="index.html#actualidad">Actualidad</a>
+            <a href="index.html#tecnologia">Tecnología</a>
+            <a href="index.html#sociedad">Sociedad</a>
+            <a href="index.html#opinión">Opinión</a>
+            <a href="index.html#trabajos">Trabajos</a>
+            <a href="galeria.html" aria-current="page">Galería</a>
+            <a href="index.html#sobre-nosotros">Sobre nosotros</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="gallery-main">
+        <section class="container gallery-intro" aria-labelledby="gallery-title">
+          <h1 id="gallery-title">Galería</h1>
+          <p>
+            Un espacio para reunir imágenes relacionadas con los temas del proyecto. Las imágenes
+            actuales son referencias ilustrativas de Unsplash, no fotografías de nuestro equipo ni
+            de los acontecimientos mencionados; podrán sustituirse por fotografías propias.
+          </p>
+        </section>
+
+        <section class="container gallery-grid" aria-label="Espacios para fotografías">
+          <figure class="gallery-slot" data-detail>
+            <div class="gallery-slot-media">
+              <img src="assets/images/ai-concept.jpg" alt="Imagen ilustrativa de inteligencia artificial y tecnología, de Unsplash." loading="lazy" />
+            </div>
+            <figcaption>Referencia visual · Inteligencia artificial</figcaption>
+          </figure>
+          <figure class="gallery-slot" data-detail>
+            <div class="gallery-slot-media">
+              <img src="assets/images/social-media.jpg" alt="Imagen ilustrativa de redes sociales y comunicación digital, de Unsplash." loading="lazy" />
+            </div>
+            <figcaption>Referencia visual · Redes sociales</figcaption>
+          </figure>
+          <figure class="gallery-slot" data-detail>
+            <div class="gallery-slot-media">
+              <img src="assets/images/creator-portrait.jpg" alt="Retrato ilustrativo de una creadora de contenido, de Unsplash." loading="lazy" />
+            </div>
+            <figcaption>Referencia visual · Creación de contenido</figcaption>
+          </figure>
+          <figure class="gallery-slot" data-detail>
+            <div class="gallery-slot-media">
+              <img src="assets/images/digital-life.jpg" alt="Persona usando un teléfono inteligente, imagen ilustrativa de Unsplash." loading="lazy" />
+            </div>
+            <figcaption>Referencia visual · Vida digital</figcaption>
+          </figure>
+          <figure class="gallery-slot" data-detail>
+            <div class="gallery-slot-media">
+              <img src="assets/images/collaborative-tech.jpg" alt="Personas colaborando con tecnología digital, imagen ilustrativa de Unsplash." loading="lazy" />
+            </div>
+            <figcaption>Referencia visual · Tecnología y sociedad</figcaption>
+          </figure>
+          <figure class="gallery-slot" data-detail>
+            <div class="gallery-slot-media">
+              <img src="assets/images/creative-team.jpg" alt="Equipo conversando en un entorno digital, imagen ilustrativa de Unsplash." loading="lazy" />
+            </div>
+            <figcaption>Referencia visual · Comunicación</figcaption>
+          </figure>
+          <figure class="gallery-slot" data-detail>
+            <div class="gallery-slot-media">
+              <img src="assets/images/coding-workspace.jpg" alt="Espacio de trabajo con una computadora, imagen ilustrativa de Unsplash." loading="lazy" />
+            </div>
+            <figcaption>Referencia visual · Tecnología</figcaption>
+          </figure>
+          <figure class="gallery-slot" data-detail>
+            <div class="gallery-slot-media">
+              <img src="assets/images/cybersecurity.jpg" alt="Imagen ilustrativa sobre ciberseguridad y medios digitales, de Unsplash." loading="lazy" />
+            </div>
+            <figcaption>Referencia visual · Seguridad digital</figcaption>
+          </figure>
+        </section>
+
+        <div class="container gallery-return">
+          <a class="button secondary" href="index.html#inicio">Volver a la página principal</a>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-grid">
+          <div>
+            <a class="brand footer-brand" href="index.html#inicio">
+              <img src="assets/logo.svg" alt="Símbolo gráfico de DosCaras.IA" />
+              <span>Más allá del feed</span>
+            </a>
+          </div>
+          <nav class="footer-nav" aria-label="Navegación del pie de página">
+            <a href="index.html#inicio">Inicio</a>
+            <a href="index.html#noticias-ia">Noticias IA</a>
+            <a href="index.html#trabajos">Trabajos</a>
+            <a href="galeria.html" aria-current="page">Galería</a>
+          </nav>
+          <div class="footer-meta">
+            <span>© <span id="year"></span> Más allá del feed</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

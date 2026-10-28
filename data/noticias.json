@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-10-26",
+  "items": [
+    {
+      "id": "anthropic-riesgos-ia",
+      "title": "Anthropic advierte de riesgos de la IA al presentar su salida a bolsa",
+      "originalTitle": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+      "summary": "Al presentar documentos para cotizar en bolsa, la compañía describió riesgos asociados al desarrollo y uso de sistemas avanzados de IA, junto con posibles beneficios. El artículo recoge lo declarado por la empresa y el contexto de su presentación.",
+      "source": "BBC News",
+      "publishedAt": "2026-10-26",
+      "category": "IA y responsabilidad",
+      "image": "assets/images/ai-concept.jpg",
+      "imageAlt": "Imagen ilustrativa sobre inteligencia artificial; no representa el acontecimiento ni procede del artículo.",
+      "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo",
+      "featured": true
+    },
+    {
+      "id": "php-alerta-ciberseguridad",
+      "title": "Una alerta de ciberseguridad pone el foco en fallas de PHP",
+      "originalTitle": "What is PHP and why did it spark a global cyber-security scramble?",
+      "summary": "El reportaje explica cómo investigadores identificaron dos vulnerabilidades en PHP y cómo distintas organizaciones respondieron con parches y medidas de precaución. La BBC indica que, al actualizar la nota, no se habían reportado explotaciones exitosas.",
+      "source": "BBC News",
+      "publishedAt": "2026-10-23",
+      "category": "Ciberseguridad",
+      "image": "assets/images/cybersecurity.jpg",
+      "imageAlt": "Imagen ilustrativa sobre seguridad digital; no representa las vulnerabilidades descritas en el artículo.",
+      "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o",
+      "featured": false
+    },
+    {
+      "id": "debate-centros-datos",
+      "title": "Crece el debate público sobre la expansión de los centros de datos",
+      "originalTitle": "Big, noisy and coming to a town near you - why the data centre backlash is growing",
+      "summary": "La BBC examina la expansión de los centros de datos y las preocupaciones expresadas por comunidades sobre su consumo eléctrico y sus posibles efectos ambientales. El artículo también explica su relación con los servicios digitales y la infraestructura de IA.",
+      "source": "BBC News",
+      "publishedAt": "2026-10-25",
+      "category": "Infraestructura y sociedad",
+      "image": "assets/images/coding-workspace.jpg",
+      "imageAlt": "Imagen ilustrativa de un espacio de trabajo tecnológico; no muestra un centro de datos.",
+      "url": "https://www.bbc.co.uk/news/articles/cq2e9we7w2ejo",
+      "featured": false
+    }
+  ]
+}

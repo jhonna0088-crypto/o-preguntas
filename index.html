@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Más allá del feed explora la relación entre tecnología, medios digitales y sociedad desde una mirada crítica y editorial."
+    />
+    <meta name="theme-color" content="#050918" />
+    <title>Más allá del feed | La realidad detrás de la pantalla</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav-wrap">
+          <a class="brand" href="#inicio" aria-label="Ir a inicio">
+            <img src="assets/logo.svg" alt="Símbolo gráfico de DosCaras.IA" />
+            <span>Más allá del feed</span>
+          </a>
+
+          <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="sr-only">Abrir menú</span>
+          </button>
+
+          <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+            <a href="#inicio">Inicio</a>
+            <a href="#noticias-ia">Noticias IA</a>
+            <a href="#actualidad">Actualidad</a>
+            <a href="#tecnologia">Tecnología</a>
+            <a href="#sociedad">Sociedad</a>
+            <a href="#opinión">Opinión</a>
+            <a href="#trabajos">Trabajos</a>
+            <a href="galeria.html">Galería</a>
+            <a href="#sobre-nosotros">Sobre nosotros</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="inicio">
+          <div class="container hero-grid">
+            <div class="hero-copy" data-reveal>
+              <p class="eyebrow">La realidad detrás de la pantalla</p>
+              <h1 class="chrome-title" data-glitch="MÁS ALLÁ DEL FEED">MÁS ALLÁ DEL FEED</h1>
+              <nav class="hero-section-map" aria-label="Explora las secciones del sitio">
+                <span class="hero-map-label">EXPLORA EL SITIO <i></i></span>
+                <div class="hero-map-network">
+                  <svg class="hero-map-connections" viewBox="0 0 360 130" preserveAspectRatio="none" aria-hidden="true">
+                    <path d="M60 17H300M60 65H300M60 113H300M60 17v96m120-96v96m120-96v96" />
+                    <circle cx="60" cy="17" r="2" />
+                    <circle cx="180" cy="17" r="2" />
+                    <circle cx="300" cy="17" r="2" />
+                    <circle cx="60" cy="65" r="2" />
+                    <circle cx="180" cy="65" r="2" />
+                    <circle cx="300" cy="65" r="2" />
+                    <circle cx="60" cy="113" r="2" />
+                    <circle cx="180" cy="113" r="2" />
+                    <circle cx="300" cy="113" r="2" />
+                  </svg>
+                  <a class="hero-map-node node-home" href="#inicio" aria-label="Inicio: presentación del proyecto">Inicio</a>
+                  <a class="hero-map-node node-current" href="#actualidad" aria-label="Actualidad: temas y preguntas sobre la vida digital">Actualidad</a>
+                  <a class="hero-map-node node-news" href="#noticias-ia" aria-label="Noticias: selección verificada de IA y tecnología">Noticias</a>
+                  <a class="hero-map-node node-tech" href="#tecnologia" aria-label="Tecnología y sociedad: mapa de conexiones entre temas digitales">Tecnología y sociedad</a>
+                  <a class="hero-map-node node-opinion" href="#opinión" aria-label="Opinión: preguntas y perspectivas para analizar">Opinión</a>
+                  <a class="hero-map-node node-about" href="#sobre-nosotros" aria-label="Sobre nosotros: propósito, misión, visión y valores">Sobre nosotros</a>
+                  <a class="hero-map-node node-english" href="#ingles" data-subject-select="ingles" aria-label="Inglés: espacios reservados para trabajos escolares">Inglés</a>
+                  <a class="hero-map-node node-spanish" href="#espanol" data-subject-select="espanol" aria-label="Español: espacios reservados para trabajos escolares">Español</a>
+                  <a class="hero-map-node node-gallery" href="galeria.html" aria-label="Galería: imágenes ilustrativas y espacios para fotografías">Galería</a>
+                </div>
+              </nav>
+              <p class="lead">
+                Una mirada escolar a la inteligencia artificial, las redes sociales y la cultura digital:
+                preguntas para entender cómo se relacionan con nuestras decisiones y la vida cotidiana.
+              </p>
+              <div class="hero-actions">
+                <a class="button primary" href="#actualidad">Explorar las historias</a>
+                <a class="button secondary" href="#sobre-nosotros">Conocer el proyecto</a>
+              </div>
+            </div>
+
+            <div class="hero-visual" data-reveal>
+              <div class="visual-frame">
+                <img class="hero-photo" src="assets/hero-eye.jpg" alt="" />
+                <div class="scene-glow glow-one"></div>
+                <div class="scene-glow glow-two"></div>
+                <div class="signal signal-a"></div>
+                <div class="signal signal-b"></div>
+                <div class="portrait-block">
+                  <div class="portrait-head"></div>
+                  <div class="portrait-body"></div>
+                  <div class="screen-panel panel-one"></div>
+                  <div class="screen-panel panel-two"></div>
+                  <div class="screen-panel panel-three"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="school-work section-frame" id="trabajos">
+          <div class="container">
+            <div class="section-head">
+              <h2>Espacios para los trabajos escolares.</h2>
+              <p>Secciones preparadas para completar cuando estén listos los contenidos.</p>
+            </div>
+
+            <section class="assignment-group institutional-group" id="grupo-institucional" aria-labelledby="institutional-group-title">
+              <div class="assignment-group-heading">
+                <p class="eyebrow accent">Grupo 1 · Institucional</p>
+                <h3 id="institutional-group-title">Home / Who are we?</h3>
+                <p>Presentación del proyecto y sus apartados institucionales.</p>
+              </div>
+              <nav class="assignment-shortcuts" aria-label="Apartados institucionales">
+                <a href="#sobre-nosotros">Home / Who are we?</a>
+                <a href="#mission">Mission</a>
+                <a href="#vision">Vision</a>
+                <a href="#objectives">Objectives</a>
+              </nav>
+              <article class="assignment-piece objectives-slot" id="objectives">
+                <h4>Objectives</h4>
+                <p>Espacio reservado para agregar los objetivos cuando se defina su contenido.</p>
+              </article>
+            </section>
+
+            <nav class="assignment-nav" role="tablist" aria-label="Seleccionar materia">
+              <button class="assignment-tab is-active" id="tab-ingles" type="button" role="tab" aria-selected="true" aria-controls="ingles" data-subject-tab="ingles">Inglés</button>
+              <button class="assignment-tab" id="tab-espanol" type="button" role="tab" aria-selected="false" aria-controls="espanol" data-subject-tab="espanol" tabindex="-1">Español</button>
+            </nav>
+
+            <section class="assignment-block is-active" id="ingles" role="tabpanel" tabindex="0" aria-labelledby="tab-ingles english-title">
+              <div class="assignment-heading">
+                <p class="eyebrow accent">Grupo 2 · Inglés</p>
+                <h3 id="english-title">AI Domination?</h3>
+              </div>
+
+              <div class="assignment-content">
+                <nav class="assignment-shortcuts assignment-shortcuts--five" aria-label="Trabajos del grupo AI Domination">
+                  <a href="#ai-domination">AI Domination?</a>
+                  <a href="#mind-map">Mind Map</a>
+                  <a href="#cybercrimes">Cybercrimes</a>
+                  <a href="#parallel">Parallel</a>
+                  <a href="#statements">Statements (I'll be right back)</a>
+                </nav>
+
+                <article class="assignment-piece" id="ai-domination">
+                  <h4>AI Domination?</h4>
+                  <p>Espacio reservado para el trabajo principal sobre inteligencia artificial.</p>
+                </article>
+
+                <article class="assignment-piece" id="mind-map">
+                  <h4>Mind Map</h4>
+                  <p>Mapa mental sobre las redes sociales.</p>
+                  <div class="assignment-canvas">
+                    <img src="assets/images/social-media.jpg" alt="Composición de aplicaciones y redes sociales, imagen de referencia de Unsplash." loading="lazy" />
+                    <span class="image-note">Imagen de referencia · Unsplash</span>
+                  </div>
+                </article>
+
+                <section class="assignment-piece assignment-cluster" id="cybercrimes">
+                  <h4>Cybercrimes</h4>
+                  <p>Dos espacios para agregar los delitos cibernéticos seleccionados y su mapa mental o diseño.</p>
+                  <div class="cybercrime-grid">
+                    <article class="cybercrime-slot" data-detail>
+                      <h5>Delito cibernético 1</h5>
+                      <div class="assignment-canvas">
+                        <img src="assets/images/cybersecurity.jpg" alt="Imagen de referencia sobre ciberseguridad de Unsplash." loading="lazy" />
+                        <span class="image-note">Imagen de referencia · Unsplash</span>
+                      </div>
+                      <p>Nombre y diseño por agregar.</p>
+                    </article>
+                    <article class="cybercrime-slot" data-detail>
+                      <h5>Delito cibernético 2</h5>
+                      <div class="assignment-canvas">
+                        <img src="assets/images/digital-culture.jpg" alt="Imagen de referencia sobre tecnología digital de Unsplash." loading="lazy" />
+                        <span class="image-note">Imagen de referencia · Unsplash</span>
+                      </div>
+                      <p>Nombre y diseño por agregar.</p>
+                    </article>
+                  </div>
+                </section>
+
+                <article class="assignment-piece" id="parallel">
+                  <h4>Parallel</h4>
+                  <p>Comparación entre los beneficios y las desventajas de la inteligencia artificial.</p>
+                  <div class="comparison-layout">
+                    <article class="comparison-column">
+                      <img class="card-image" src="assets/images/creative-team.jpg" alt="Personas colaborando en un entorno tecnológico, imagen de referencia de Unsplash." loading="lazy" />
+                      <h5>Beneficios</h5>
+                      <p>Contenido por agregar.</p>
+                    </article>
+                    <article class="comparison-column">
+                      <img class="card-image" src="assets/images/cybersecurity.jpg" alt="Imagen temática sobre riesgos y seguridad digital, referencia visual de Unsplash." loading="lazy" />
+                      <h5>Desventajas</h5>
+                      <p>Contenido por agregar.</p>
+                    </article>
+                  </div>
+                </article>
+
+                <div class="assignment-piece thesis-section" id="statements">
+                  <h4>Statements (I'll be right back)</h4>
+                  <nav class="thesis-index" aria-label="Ir a una tesis individual">
+                    <a href="#tesis-integrante-1">Integrante 1</a>
+                    <a href="#tesis-integrante-2">Integrante 2</a>
+                    <a href="#tesis-integrante-3">Integrante 3</a>
+                    <a href="#tesis-integrante-4">Integrante 4</a>
+                    <a href="#tesis-integrante-5">Integrante 5</a>
+                  </nav>
+                  <div class="thesis-list">
+                    <article class="thesis-slot" id="tesis-integrante-1" data-detail>
+                      <img class="card-image" src="assets/images/ai-concept.jpg" alt="Imagen temática sobre inteligencia artificial, referencia visual de Unsplash." loading="lazy" />
+                      <h5>Integrante 1</h5>
+                      <p>Espacio reservado para su tesis individual.</p>
+                    </article>
+                    <article class="thesis-slot" id="tesis-integrante-2" data-detail>
+                      <img class="card-image" src="assets/images/digital-life.jpg" alt="Imagen temática sobre vida digital, referencia visual de Unsplash." loading="lazy" />
+                      <h5>Integrante 2</h5>
+                      <p>Espacio reservado para su tesis individual.</p>
+                    </article>
+                    <article class="thesis-slot" id="tesis-integrante-3" data-detail>
+                      <img class="card-image" src="assets/images/creator-portrait.jpg" alt="Retrato de referencia sobre creación de contenido, imagen de Unsplash." loading="lazy" />
+                      <h5>Integrante 3</h5>
+                      <p>Espacio reservado para su tesis individual.</p>
+                    </article>
+                    <article class="thesis-slot" id="tesis-integrante-4" data-detail>
+                      <img class="card-image" src="assets/images/cybersecurity.jpg" alt="Imagen temática sobre seguridad informática, referencia visual de Unsplash." loading="lazy" />
+                      <h5>Integrante 4</h5>
+                      <p>Espacio reservado para su tesis individual.</p>
+                    </article>
+                    <article class="thesis-slot" id="tesis-integrante-5" data-detail>
+                      <img class="card-image" src="assets/images/coding-workspace.jpg" alt="Imagen temática sobre tecnología digital, referencia visual de Unsplash." loading="lazy" />
+                      <h5>Integrante 5</h5>
+                      <p>Espacio reservado para su tesis individual.</p>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="assignment-block" id="espanol" role="tabpanel" tabindex="0" aria-labelledby="tab-espanol spanish-title" hidden>
+              <div class="assignment-heading">
+                <p class="eyebrow accent">Grupo 3 · Español</p>
+                <h3 id="spanish-title">Influencers / Texts</h3>
+              </div>
+
+              <div class="assignment-content">
+                <nav class="assignment-shortcuts" aria-label="Trabajos del grupo Influencers y Texts">
+                  <a href="#influencers">Influencers</a>
+                  <a href="#texts">Texts</a>
+                </nav>
+
+                <section class="influencer-map-section influencer-work-entry" id="influencers" aria-labelledby="influencer-map-title">
+                  <div class="influencer-map-wrap">
+                    <div class="section-head section-head-inline">
+                      <p class="eyebrow accent">Influencers · Mapa mental</p>
+                      <h4 id="influencer-map-title">Influencia, sostenibilidad y crecimiento.</h4>
+                    </div>
+
+                    <a
+                      class="influencer-map-card pointer-tilt"
+                      href="influencers.html"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="Abrir el mapa de influencers en una nueva pestaña"
+                    >
+                      <span class="map-card-badge">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                          <path d="M12 2.5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 12 2.5Zm0 2.1a7.37 7.37 0 0 1 5.4 12.4c-1.2-1.4-3.26-2.1-5.4-2.1s-4.2.7-5.4 2.1A7.37 7.37 0 0 1 12 4.6Zm0 10.23a3.23 3.23 0 1 0 3.23 3.23A3.23 3.23 0 0 0 12 14.83Z"/>
+                        </svg>
+                        Influencers
+                      </span>
+                      <div class="map-visual" aria-hidden="true">
+                        <span class="map-arc arc-one"></span>
+                        <span class="map-arc arc-two"></span>
+                        <span class="map-node node-sustainability">Sostenibilidad</span>
+                        <span class="map-node node-growth">Crecimiento</span>
+                        <span class="map-node node-finance">Finanzas</span>
+                        <span class="map-node node-core">Mapa</span>
+                      </div>
+                      <div class="map-card-copy">
+                        <h3>Seis perfiles para explorar.</h3>
+                        <p>Un recorrido visual por temas clave: medioambiente, desarrollo personal y educación financiera.</p>
+                      </div>
+                      <span class="map-link">Abrir perfiles <span aria-hidden="true">→</span></span>
+                    </a>
+                  </div>
+                </section>
+
+                <section class="assignment-piece texts-assignment" id="texts">
+                  <h4>Texts</h4>
+                  <article class="introduction-slot">
+                    <h5>Párrafo inicial</h5>
+                    <p>Espacio reservado para el párrafo introductorio de la página.</p>
+                  </article>
+                  <div class="assignment-cluster">
+                    <h5>Textos escolares sobre los influencers</h5>
+                    <div class="influencer-texts">
+                      <article class="influencer-text-slot" data-detail>
+                        <img class="card-image" src="assets/images/creator-portrait.jpg" alt="Retrato ilustrativo de una creadora de contenido, imagen de referencia de Unsplash." loading="lazy" />
+                        <h5>Texto por agregar</h5>
+                        <p>Espacio reservado para completar este texto escolar.</p>
+                      </article>
+                      <article class="influencer-text-slot" data-detail>
+                        <img class="card-image" src="assets/images/social-media.jpg" alt="Aplicaciones de comunicación digital, imagen de referencia de Unsplash." loading="lazy" />
+                        <h5>Texto por agregar</h5>
+                        <p>Espacio reservado para completar este texto escolar.</p>
+                      </article>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </section>
+          </div>
+        </section>
+
+        <section class="about section-frame" id="sobre-nosotros">
+          <div class="container">
+            <div class="section-head" data-reveal>
+              <p class="eyebrow accent">Sobre nosotros</p>
+              <h2>Una mirada crítica al mundo digital.</h2>
+            </div>
+
+            <div class="about-grid">
+              <div class="about-copy" data-reveal>
+                <p>
+                  Más allá del feed es un proyecto escolar de información y análisis que explora la
+                  relación entre la tecnología, los medios digitales y la sociedad. Busca ir más allá
+                  de lo que vemos en las pantallas, examinando las ideas, los impactos y las preguntas
+                  que surgen de nuestra vida digital.
+                </p>
+                <p>
+                  Aquí conviven explicaciones generales, preguntas para el debate y noticias enlazadas
+                  a sus fuentes originales. Las imágenes de apoyo se identifican como ilustrativas y
+                  no se presentan como fotografías de los acontecimientos.
+                </p>
+              </div>
+
+              <div class="mission-vision" data-reveal>
+                <div class="mission-box" id="mission" data-detail>
+                  <span class="label">Misión</span>
+                  <img class="card-image" src="assets/images/collaborative-tech.jpg" alt="Personas colaborando frente a una computadora, imagen de referencia de Unsplash." loading="lazy" />
+                  <p>
+                    Informar, analizar y generar conciencia sobre el impacto de la tecnología en la
+                    sociedad mediante contenidos de calidad que promuevan el pensamiento crítico, la
+                    reflexión y el diálogo.
+                  </p>
+                </div>
+                <div class="mission-box" id="vision" data-detail>
+                  <span class="label">Visión</span>
+                  <img class="card-image" src="assets/images/creative-team.jpg" alt="Equipo trabajando con dispositivos digitales, imagen de referencia de Unsplash." loading="lazy" />
+                  <p>
+                    Ser un referente digital en la construcción de una comunidad informada, crítica y
+                    consciente, que comprenda el poder de la tecnología y la utilice para construir un
+                    mejor futuro.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="values-grid" data-reveal>
+              <article class="value-card" data-detail>
+                <span class="value-index">01</span>
+                <img class="card-image" src="assets/images/digital-culture.jpg" alt="Sala de videojuegos que representa la cultura digital, imagen de referencia de Unsplash." loading="lazy" />
+                <h3>Veracidad</h3>
+                <p>Basarnos en hechos y fuentes verificables, evitando presentar rumores como información confirmada.</p>
+              </article>
+              <article class="value-card" data-detail>
+                <span class="value-index">02</span>
+                <img class="card-image" src="assets/images/coding-workspace.jpg" alt="Computadora en un espacio de trabajo tecnológico, imagen de referencia de Unsplash." loading="lazy" />
+                <h3>Pensamiento crítico</h3>
+                <p>Cuestionar la información, examinar argumentos y contrastar diferentes perspectivas.</p>
+              </article>
+              <article class="value-card" data-detail>
+                <span class="value-index">03</span>
+                <img class="card-image" src="assets/images/collaborative-tech.jpg" alt="Personas colaborando frente a una computadora, imagen de referencia de Unsplash." loading="lazy" />
+                <h3>Respeto</h3>
+                <p>Reconocer diferentes opiniones y tratar los temas y las personas con responsabilidad.</p>
+              </article>
+              <article class="value-card" data-detail>
+                <span class="value-index">04</span>
+                <img class="card-image" src="assets/images/creative-team.jpg" alt="Equipo conversando alrededor de dispositivos digitales, imagen de referencia de Unsplash." loading="lazy" />
+                <h3>Innovación</h3>
+                <p>Explorar nuevas formas de comunicar, investigar y comprender las historias.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="ai-news-section section-frame" id="noticias-ia" aria-labelledby="ai-news-title">
+          <div class="container">
+            <div class="section-head editorial-head">
+              <p class="eyebrow accent">Selección editorial</p>
+              <h2 id="ai-news-title">Noticias de IA y tecnología.</h2>
+              <p class="ai-news-intro">
+                Una selección de publicaciones sobre inteligencia artificial, plataformas digitales,
+                ciberseguridad y su impacto social. Cada tarjeta conduce al artículo original para
+                consultar su contexto y los detalles en la fuente.
+              </p>
+              <p class="news-update-note" id="news-update-note"></p>
+            </div>
+            <div class="news-list" id="news-list" aria-label="Noticias verificadas">
+              <p class="news-status" id="news-status" role="status" aria-live="polite">
+                Cargando la selección de noticias…
+              </p>
+            </div>
+            <noscript>
+              <p class="news-status">Activa JavaScript para consultar las noticias de la lista local.</p>
+            </noscript>
+          </div>
+        </section>
+
+        <section class="news section-frame" id="actualidad">
+          <div class="container">
+            <div class="section-head editorial-head" data-reveal>
+              <p class="eyebrow accent">Temas para explorar</p>
+              <h2>Preguntas que merecen otra mirada.</h2>
+            </div>
+
+            <div class="editorial-layout" data-reveal>
+              <article class="feature-story story-panel">
+                <a href="article-demo.html" aria-label="Abrir historia de demostración sobre inteligencia artificial">
+                  <div class="story-image image-feature">
+                    <img src="assets/images/ai-concept.jpg" alt="Composición visual de inteligencia artificial y tecnología, imagen de referencia de Unsplash." loading="lazy" />
+                  </div>
+                  <div class="story-copy">
+                    <span class="meta-tag">Demostración</span>
+                    <h3>¿La IA ya reemplaza a los humanos?</h3>
+                    <p>Entre el miedo y la oportunidad, la inteligencia artificial sigue transformando el mundo del trabajo. ¿Estamos preparados para lo que viene?</p>
+                    <span class="story-link">Leer historia →</span>
+                  </div>
+                </a>
+              </article>
+
+              <aside class="side-stories">
+                <article class="story-mini story-panel" data-detail>
+                  <div class="story-thumb thumb-one">
+                    <img src="assets/images/digital-life.jpg" alt="Persona utilizando un dispositivo móvil, imagen de referencia de Unsplash." loading="lazy" />
+                  </div>
+                  <div class="story-copy">
+                    <span class="meta-tag">Bienestar digital</span>
+                    <h3>¿Qué lugar ocupan las redes en el bienestar cotidiano?</h3>
+                    <p>Una pregunta para considerar experiencias distintas y contrastarlas con información confiable.</p>
+                  </div>
+                </article>
+
+                <article class="story-mini story-panel" data-detail>
+                  <div class="story-thumb thumb-two">
+                    <img src="assets/images/creator-portrait.jpg" alt="Retrato ilustrativo de una creadora de contenido, imagen de referencia de Unsplash." loading="lazy" />
+                  </div>
+                  <div class="story-copy">
+                    <span class="meta-tag">Cultura digital</span>
+                    <h3>Creación, autoría y reconocimiento en internet.</h3>
+                    <p>Un tema para conversar sobre las herramientas digitales y el valor que damos a las obras.</p>
+                  </div>
+                </article>
+
+                <article class="story-mini story-panel" data-detail>
+                  <div class="story-thumb thumb-three">
+                    <img src="assets/images/collaborative-tech.jpg" alt="Personas compartiendo ideas alrededor de una pantalla, imagen de referencia de Unsplash." loading="lazy" />
+                  </div>
+                  <div class="story-copy">
+                    <span class="meta-tag">Sociedad</span>
+                    <h3>¿La conexión digital siempre significa cercanía?</h3>
+                    <p>Una invitación a pensar cómo se complementan la comunicación en línea y los vínculos personales.</p>
+                  </div>
+                </article>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="feature-story-block section-frame" id="reportaje">
+          <div class="container feature-layout">
+            <div class="feature-media" data-reveal>
+              <div class="feature-scene">
+                <img src="assets/images/coding-workspace.jpg" alt="Computadora con código en un espacio de trabajo digital, imagen de referencia de Unsplash." loading="lazy" />
+              </div>
+            </div>
+
+            <div class="feature-copy" data-reveal>
+              <p class="eyebrow accent">Tecnología y sociedad</p>
+              <h2>Leer la vida digital con más contexto.</h2>
+              <p>
+                La inteligencia artificial, las plataformas y los medios digitales pueden analizarse
+                desde distintas perspectivas: quién los diseña, para qué se usan y qué preguntas
+                plantean sobre privacidad, trabajo, creatividad y convivencia.
+              </p>
+              <a class="button primary" href="#tecnologia">Explorar el mapa de conexiones</a>
+            </div>
+
+            <aside class="related-list" data-reveal>
+              <article data-detail>
+                <span>01</span>
+                <img class="related-image" src="assets/images/digital-life.jpg" alt="Dispositivo móvil que ilustra privacidad digital, imagen de referencia de Unsplash." loading="lazy" />
+                <div>
+                  <h3>Privacidad frente al progreso</h3>
+                  <p>Una conversación sobre los datos que compartimos y las decisiones que tomamos al usar servicios digitales.</p>
+                </div>
+              </article>
+              <article data-detail>
+                <span>02</span>
+                <img class="related-image" src="assets/images/cybersecurity.jpg" alt="Imagen temática sobre seguridad digital, referencia visual de Unsplash." loading="lazy" />
+                <div>
+                  <h3>Seguridad y responsabilidad compartida</h3>
+                  <p>Las buenas prácticas, el diseño y la información clara forman parte de cualquier conversación sobre seguridad digital.</p>
+                </div>
+              </article>
+              <article data-detail>
+                <span>03</span>
+                <img class="related-image" src="assets/images/ai-concept.jpg" alt="Tecnología de inteligencia artificial, imagen de referencia de Unsplash." loading="lazy" />
+                <div>
+                  <h3>Tecnología y futuro humano</h3>
+                  <p>Un espacio para debatir qué tareas queremos delegar y qué decisiones requieren criterio humano.</p>
+                </div>
+              </article>
+            </aside>
+          </div>
+        </section>
+
+        <section class="network-section section-frame" id="tecnologia">
+          <div class="container network-layout">
+            <div class="network-copy" id="sociedad" data-reveal>
+              <h2>Laboratorio de la realidad</h2>
+              <p>
+                Las plataformas, la inteligencia artificial, la cultura y la economía no son
+                fragmentos aislados: forman parte del mismo tejido de la vida cotidiana.
+              </p>
+              <p>
+                Explora seis dimensiones conectadas. Selecciona una para leer su descripción; las
+                líneas expresan relaciones temáticas, no datos ni relaciones cuantitativas.
+              </p>
+            </div>
+
+            <div class="network-experience" data-reveal>
+              <div
+                class="network-visual"
+                role="group"
+                aria-label="Mapa interactivo. Enfoca o selecciona una dimensión para explorarla."
+              >
+                <svg id="network-svg" viewBox="0 0 1000 620" preserveAspectRatio="none" aria-hidden="true"></svg>
+                <div class="network-core" aria-hidden="true">
+                  <span class="network-core-orbit"></span>
+                  <span class="network-core-label">Laboratorio<br />de la realidad</span>
+                </div>
+                <div id="network-nodes" class="network-nodes" role="group" aria-label="Dimensiones de exploración"></div>
+              </div>
+
+              <aside class="network-panel" data-detail aria-live="polite" aria-atomic="true">
+                <span class="panel-label">Dimensión seleccionada</span>
+                <h3 id="network-title">Sociedad</h3>
+                <p id="network-description">
+                  Las personas usan, interpretan y cuestionan las tecnologías de maneras diversas.
+                  El contexto social ayuda a entender tanto sus posibilidades como sus efectos.
+                </p>
+                <button id="reset-network" class="button secondary" type="button">Restablecer selección</button>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="opinions section-frame" id="opinión">
+          <div class="container">
+            <div class="section-head editorial-head" data-reveal>
+              <p class="eyebrow accent">Voces y perspectivas</p>
+              <h2>La pregunta no es solo qué ocurre, sino qué significa.</h2>
+            </div>
+
+            <div class="opinion-layout">
+              <article class="opinion-feature story-panel" data-reveal>
+                <img class="opinion-image" src="assets/images/digital-life.jpg" alt="Persona frente a un dispositivo digital, imagen de referencia de Unsplash." loading="lazy" />
+                <div class="opinion-copy">
+                  <span class="meta-tag">Filosofía</span>
+                  <h3>¿Somos realmente libres?</h3>
+                  <p>Cuando la información se curva a nuestro comportamiento, ¿seguimos construyendo nuestra propia verdad?</p>
+                </div>
+              </article>
+
+              <article class="opinion-context story-panel" data-reveal data-detail>
+                <img class="opinion-image" src="assets/images/creative-team.jpg" alt="Personas conversando en un entorno digital, imagen de referencia de Unsplash." loading="lazy" />
+                <div>
+                  <span class="meta-tag">Lectura crítica</span>
+                  <h3>Antes de compartir, mirar el contexto.</h3>
+                  <p>Preguntarse quién publica, qué evidencia ofrece y qué información falta ayuda a distinguir datos, interpretaciones y opiniones.</p>
+                </div>
+              </article>
+
+              <article class="mini-opinion story-panel" data-reveal data-detail>
+                <img class="opinion-image" src="assets/images/cybersecurity.jpg" alt="Imagen de referencia sobre seguridad tecnológica de Unsplash." loading="lazy" />
+                <span class="meta-tag">Ética</span>
+                <h3>Privacidad frente al progreso</h3>
+                <p>¿Cómo equilibrar nuevas posibilidades tecnológicas con el cuidado de la información personal?</p>
+              </article>
+
+              <article class="mini-opinion story-panel" data-reveal data-detail>
+                <img class="opinion-image" src="assets/images/ai-concept.jpg" alt="Imagen ilustrativa sobre inteligencia artificial de Unsplash." loading="lazy" />
+                <span class="meta-tag">Economía</span>
+                <h3>El impacto económico de la inteligencia artificial</h3>
+                <p>Una pregunta abierta sobre cambios en el trabajo, el acceso a herramientas y la distribución de oportunidades.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-grid">
+          <div>
+            <a class="brand footer-brand" href="#inicio">
+              <img src="assets/logo.svg" alt="Símbolo gráfico de DosCaras.IA" />
+              <span>Más allá del feed</span>
+            </a>
+            <p>Un proyecto escolar para explorar la relación entre tecnología, medios digitales y sociedad.</p>
+          </div>
+
+          <nav class="footer-nav" aria-label="Navegación del pie de página">
+            <a href="#inicio">Inicio</a>
+            <a href="#noticias-ia">Noticias IA</a>
+            <a href="#actualidad">Actualidad</a>
+            <a href="#tecnologia">Tecnología</a>
+            <a href="#trabajos">Trabajos</a>
+            <a href="galeria.html">Galería</a>
+            <a href="#sobre-nosotros">Sobre nosotros</a>
+          </nav>
+
+          <div class="footer-meta">
+            <span>© <span id="year"></span> Más allá del feed</span>
+            <span>Las noticias incluyen enlaces a sus fuentes originales.</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/noticias.js"></script>
+  </body>
+</html>
